@@ -197,3 +197,87 @@ This project analyzes **30,000 hotel booking transactions** from an online trave
 ---
 
 ## 📁 Repository Structure
+hotel-booking-analysis/
+│
+├── 📓 Hotel_Booking_Analysis.ipynb     # Google Colab notebook with full code
+├── 📂 data/
+│   └── Hotel_bookings_final.csv        # Dataset (not included - add your own)
+├── 📂 visualizations/
+│   ├── cancellation_analysis_charts.png
+│   ├── revenue_analysis.png
+│   └── monthly_trend.png
+├── 📂 report/
+│   └── Hotel_Booking_Analysis_Report.pdf
+├── 📄 README.md                        # This file
+└── 📄 requirements.txt                 # Python dependencies
+
+---
+
+## 🚀 How to Run
+
+### Option 1: Google Colab *(Recommended)*
+
+1. Open [Google Colab](https://colab.research.google.com/)
+2. Upload `Hotel_Booking_Analysis.ipynb`
+3. Upload `Hotel_bookings_final.csv` to the Colab environment
+4. Run cells sequentially
+
+### Option 2: Local Jupyter Notebook
+
+```bash
+# Clone repository
+git clone https://github.com/merls0515/hotel-booking-analysis.git
+cd hotel-booking-analysis
+
+# Install dependencies
+pip install -r requirements.txt
+
+# Launch Jupyter
+jupyter notebook Hotel_Booking_Analysis.ipynb
+```
+
+---
+
+## 🛠️ Technologies Used
+
+| Tool | Purpose |
+|------|---------|
+| Python 3.9+ | Core programming language |
+| Pandas | Data manipulation & analysis |
+| NumPy | Numerical computations |
+| Matplotlib | Data visualization |
+| Seaborn | Statistical visualizations |
+| Google Colab | Development environment |
+
+### `requirements.txt`
+pandas==2.0.3
+numpy==1.24.3
+matplotlib==3.7.1
+seaborn==0.12.2
+
+---
+
+## 📝 Key Insights Summary
+
+1. 💸 **$146.8M lost annually** to cancellations
+2. 📉 **Travel Agent** channel has 10% higher cancellation than Web
+3. 🛏️ **Standard rooms** cancel 7% more than Deluxe
+4. 📅 **July** has 14% higher cancellation than April
+5. 🌐 **Web channel** generates highest revenue ($444M) with lowest cancellation (17.6%)
+6. ✅ Lead time, stay length, and payment method have **no meaningful impact** on cancellations
+
+---
+
+## 👤 Author
+
+**Merlyn Victor**
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/merlyn-victor-15391b2a6)
+[![GitHub](https://img.shields.io/badge/GitHub-Follow-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/merls0515)
+[![Email](https://img.shields.io/badge/Email-Contact-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:merlyntvictor@gmail.com)
+
+---
+
+## 📧 Submission
+
+> This project was submitted to **TravClan** as part of an assignment.
